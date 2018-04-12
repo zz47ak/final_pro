@@ -29,13 +29,13 @@
 <div class="row">
       <div class="col-md-6">
           <div class="form-group">
-              {{ Form::number('regno','',['class' => 'form-control', 'placeholder' => 'Registration Number']) }}
+              {{ Form::text('regno','',['class' => 'form-control', 'placeholder' => 'Registration Number']) }}
           </div>
       </div>
 
       <div class="col-md-6">
           <div class="form-group">
-              {{ Form::number('mob','',['class' => 'form-control', 'placeholder' => 'Mobile Number']) }}  
+              {{ Form::text('mob','',['class' => 'form-control', 'placeholder' => 'Mobile Number']) }}  
           </div>
       </div>
 </div>

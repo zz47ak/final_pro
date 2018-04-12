@@ -20,4 +20,5 @@ Route::get('gallery', function () {
 Route::get('register', function () {
     return view('register');
 });
+Route::get('registrations', 'MessagesController@getMessages');
 Route::post('/register/submit', 'MessagesController@submit');

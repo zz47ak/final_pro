@@ -10,10 +10,10 @@ class MessagesController extends Controller
 {
     public function submit(Request $request){
         $this->validate($request,[
-            'name' => 'required',
-            'email' => 'required',
-            'regno' => 'required',
-            'mob'  => 'required',
+            'name' => 'required|alpha',
+            'email' => 'required|email',
+            'regno' => 'required|numeric|digits:8',
+            'mob'  => 'required|numeric|digits:10',
             'event' => 'required'
         ]);
 
@@ -26,5 +26,9 @@ class MessagesController extends Controller
         $message->save();
 
         return redirect('/register')->with('success','Registration successful');
+    }
+    public function getMessages(){
+        $messages = Message::all();
+        return view('registrations')->with('messages',$messages);
     }
 }
