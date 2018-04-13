@@ -11,9 +11,9 @@
         <li>
           <ol class="type">
             <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".web">Web Design</a></li>
-            <li><a href="#" data-filter=".photography">Photography</a></li>
-            <li><a href="#" data-filter=".product">Product Design</a></li>
+            <li><a href="#" data-filter=".web">Echo Talkz</a></li>
+            <li><a href="#" data-filter=".photography">Dress to express</a></li>
+            <li><a href="#" data-filter=".product">Blogathon</a></li>
           </ol>
         </li>
       </ul>
