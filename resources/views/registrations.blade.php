@@ -15,10 +15,8 @@
         <li class="list-group-item">Mobile Number:{{ $message->mob}}</li>
         <li class="list-group-item">Event:{{ $message->event}}</li>
         </ul>
-
         @endforeach
     @endif
   </div>
 </div>
-
 @endsection

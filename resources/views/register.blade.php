@@ -8,10 +8,7 @@
       <hr>
     </div>
     <div class="col-md-8 col-md-offset-2">
-      
-      
-      
-    {!! Form::open(['url' => 'register/submit']) !!}
+{!! Form::open(['url' => 'register/submit']) !!}
 <div class="row">
       <div class="col-md-6">
           <div class="form-group">
@@ -78,10 +75,7 @@
   @endif
   </div>
 </div>
-
-
-
-    {!! Form::close() !!}
+{!! Form::close() !!}
     
       <div class="social">
       <h6>Follow us on social media</h6><br>
@@ -94,6 +88,4 @@
     </div>
   </div>
 </div>
-
-
 @endsection
